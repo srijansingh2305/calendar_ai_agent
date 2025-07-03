@@ -24,3 +24,9 @@ async def chat(req: Request):
         "message": result.final_answer,
         "state": result.dict()
     }
+
+
+@app.get("/")
+def read_root():
+    return {"status": "✅ Calendar AI Agent is running."}
+
