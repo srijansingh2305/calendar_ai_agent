@@ -1,7 +1,8 @@
 import streamlit as st
 import requests
 
-API_URL = "https://calendar-ai-agent.onrender.com"
+API_URL = "https://calendar-ai-agent.onrender.com/chat"
+
 
 # ---- Init session state ----
 if "chat_history" not in st.session_state:
